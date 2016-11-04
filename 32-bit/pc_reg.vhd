@@ -19,13 +19,12 @@ signal counter:STD_LOGIC_VECTOR(31 downto 0) := x"00000000";
 begin
   process(clk)
   variable ce_var:STD_LOGIC :='0';
-  variable pc_var:STD_LOGIC_VECTOR(31 downto 0) := x"00000000";
   begin
     if clk'event and clk='1' then
       if rst = '1' then
-        ce_var <= '0';
+        ce_var := '0';
       else
-        ce_var <= '1';
+        ce_var := '1';
       end if;
       ce<=ce_var;
       if ce_var = '1' then

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=F:\Programs\CPU\CPU\ALU\impact.xsl
+OUTFILE=F:\Programs\CPU\CPU\ALU\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=F:\Programs\CPU\CPU\ALU
+LICENSE=iMPACT
+USER_INFO=iMPACT

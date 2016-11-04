@@ -1,0 +1,169 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Oct 27 20:46:05 2016
+# Process ID: 7192
+# Log file: F:/Programs/CPU/CPU/ALU/planAhead_run_1/planAhead.log
+# Journal file: F:/Programs/CPU/CPU/ALU/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from G:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [G:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [G:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source F:/Programs/CPU/CPU/ALU/pa.fromNetlist.tcl
+# create_project -name ALU -dir "F:/Programs/CPU/CPU/ALU/planAhead_run_1" -part xc3s1200efg320-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "F:/Programs/CPU/CPU/ALU/alu.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {F:/Programs/CPU/CPU/ALU} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "alu.ucf" [current_fileset -constrset]
+Adding file 'F:/Programs/CPU/CPU/ALU/alu.ucf' to fileset 'constrs_1'
+# add_files [list {alu.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s1200efg320-4
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design alu.ngc ...
+WARNING:NetListWriters:298 - No output is written to alu.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file alu.edif ...
+ngc2edif: Total memory usage is 124104 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/ALU.data/cache/alu_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/ALU.data/cache/alu_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library G:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [G:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [G:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from G:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s1200e/ClockRegion.xml
+Loading clock buffers from G:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s1200e/ClockBuffers.xml
+Loading package from G:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s1200e/fg320/Package.xml
+Loading io standards from G:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from G:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s1200e/fg320/SSORules.xml
+Loading list of drcs for the architecture : G:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library G:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library G:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [F:/Programs/CPU/CPU/ALU/alu.ucf]
+Finished Parsing UCF File [F:/Programs/CPU/CPU/ALU/alu.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 28fb0125
+link_design: Time (s): elapsed = 00:00:11 . Memory (MB): peak = 607.004 ; gain = 147.387
+startgroup
+set_property package_pin J6 [get_ports {input[15]}]
+endgroup
+startgroup
+set_property package_pin J7 [get_ports {input[14]}]
+endgroup
+startgroup
+set_property package_pin K2 [get_ports {input[13]}]
+endgroup
+startgroup
+set_property package_pin K7 [get_ports {input[12]}]
+endgroup
+startgroup
+set_property package_pin M1 [get_ports {input[11]}]
+endgroup
+startgroup
+set_property package_pin N1 [get_ports {input[10]}]
+endgroup
+startgroup
+set_property package_pin N2 [get_ports {input[9]}]
+endgroup
+startgroup
+set_property package_pin R1 [get_ports {input[8]}]
+endgroup
+startgroup
+set_property package_pin R4 [get_ports {input[7]}]
+endgroup
+startgroup
+set_property package_pin U1 [get_ports {input[6]}]
+endgroup
+startgroup
+set_property package_pin V2 [get_ports {input[5]}]
+endgroup
+startgroup
+set_property package_pin V3 [get_ports {input[4]}]
+endgroup
+startgroup
+set_property package_pin V4 [get_ports {input[3]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {input[2]}]
+endgroup
+startgroup
+set_property package_pin R7 [get_ports {input[1]}]
+endgroup
+startgroup
+set_property package_pin T7 [get_ports {input[0]}]
+endgroup
+startgroup
+set_property package_pin U9 [get_ports clk]
+endgroup
+set_property package_pin "" [get_ports [list  {output[5]}]]
+startgroup
+set_property package_pin A14 [get_ports {output[15]}]
+endgroup
+startgroup
+set_property package_pin E13 [get_ports {output[14]}]
+endgroup
+startgroup
+set_property package_pin D13 [get_ports {output[13]}]
+endgroup
+startgroup
+set_property package_pin B13 [get_ports {output[12]}]
+endgroup
+startgroup
+set_property package_pin A13 [get_ports {output[11]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {output[10]}]
+endgroup
+startgroup
+set_property package_pin E12 [get_ports {output[9]}]
+endgroup
+startgroup
+set_property package_pin A12 [get_ports {output[8]}]
+endgroup
+startgroup
+set_property package_pin F11 [get_ports {output[7]}]
+endgroup
+startgroup
+set_property package_pin E11 [get_ports {output[6]}]
+endgroup
+startgroup
+set_property package_pin D11 [get_ports {output[5]}]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports {output[4]}]
+endgroup
+startgroup
+set_property package_pin B11 [get_ports {output[3]}]
+endgroup
+startgroup
+set_property package_pin A11 [get_ports {output[2]}]
+endgroup
+startgroup
+set_property package_pin E10 [get_ports {output[1]}]
+endgroup
+startgroup
+set_property package_pin D10 [get_ports {output[0]}]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See F:/Programs/CPU/CPU/ALU\planAhead_pid7192.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Oct 27 21:06:13 2016...
+INFO: [Common 17-83] Releasing license: PlanAhead

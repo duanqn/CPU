@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Nov 04 14:07:13 2016
+# Process ID: 368
+# Log file: F:/Programs/CPU/CPU/ALU/planAhead_run_3/planAhead.log
+# Journal file: F:/Programs/CPU/CPU/ALU/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source F:/Programs/CPU/CPU/ALU/pa.fromNetlist.tcl

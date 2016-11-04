@@ -1,0 +1,6 @@
+V3 3
+FL F:/Programs/CPU/CPU/ALU/alu.vhd 2016/11/04.13:52:10 P.20131013
+EN work/alu 1478238743 FL F:/Programs/CPU/CPU/ALU/alu.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/alu/main 1478238744 \
+      FL F:/Programs/CPU/CPU/ALU/alu.vhd EN work/alu 1478238743

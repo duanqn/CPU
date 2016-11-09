@@ -1,0 +1,20 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/MyProgram/CPU/exp1_ori/testbench_ori_isim_beh.exe -prj D:/MyProgram/CPU/exp1_ori/testbench_ori_beh.prj work.testbench_ori 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/regfile.vhd" into library work
+Parsing VHDL file "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/mem_wb.vhd" into library work
+Parsing VHDL file "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/mem.vhd" into library work
+Parsing VHDL file "C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/pc_reg.vhd" into library work
+Parsing VHDL file "C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/if_id.vhd" into library work
+Parsing VHDL file "C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/id.vhd" into library work
+Parsing VHDL file "C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_id_ex.vhd" into library work
+Parsing VHDL file "C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_ex_mem.vhd" into library work
+Parsing VHDL file "C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_ex.vhd" into library work
+Parsing VHDL file "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/openmips.vhd" into library work
+Parsing VHDL file "D:/MyProgram/CPU/exp1_ori/testbench_ori.vhd" into library work
+ERROR:HDLCompiler:303 - "D:/MyProgram/CPU/exp1_ori/testbench_ori.vhd" Line 97: Character '0' is not in type std_logic_vector
+ERROR:HDLCompiler:303 - "D:/MyProgram/CPU/exp1_ori/testbench_ori.vhd" Line 101: Character '0' is not in type std_logic_vector
+ERROR:HDLCompiler:854 - "D:/MyProgram/CPU/exp1_ori/testbench_ori.vhd" Line 38: Unit <behavior> ignored due to previous errors.
+VHDL file D:/MyProgram/CPU/exp1_ori/testbench_ori.vhd ignored due to errors

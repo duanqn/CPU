@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-11-08T13:58:51</DateModified>
+  <DateModified>2016-11-09T16:26:41</DateModified>
   <ModuleName>openmips</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SummaryTimeStamp>2016-11-09T16:26:28</SummaryTimeStamp>
   <SavedFilePath>D:/MyProgram/CPU/exp1_ori/iseconfig/adder1.xreport</SavedFilePath>
   <ImplementationReportsDirectory>D:/MyProgram/CPU/exp1_ori</ImplementationReportsDirectory>
   <DateInitialized>2016-11-08T13:58:50</DateInitialized>

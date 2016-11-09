@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.89 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.89 secs
  
 --> Reading design: openmips.prj
 
@@ -104,26 +104,45 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/pc_reg.vhd" in Library work.
+WARNING:HDLParsers:3607 - Unit work/openmips is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/openmips.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/openmips.vhd".
+WARNING:HDLParsers:3607 - Unit work/openmips/arch is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/openmips.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/openmips.vhd".
+WARNING:HDLParsers:3607 - Unit work/id is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/id.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/id.vhd".
+WARNING:HDLParsers:3607 - Unit work/id/decode is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/id.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/id.vhd".
+WARNING:HDLParsers:3607 - Unit work/if_id is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/if_id.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/if_id.vhd".
+WARNING:HDLParsers:3607 - Unit work/if_id/simple is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/if_id.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/if_id.vhd".
+WARNING:HDLParsers:3607 - Unit work/mem is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/mem.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/mem.vhd".
+WARNING:HDLParsers:3607 - Unit work/mem/arch is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/mem.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/mem.vhd".
+WARNING:HDLParsers:3607 - Unit work/mem_wb is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/mem_wb.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/mem_wb.vhd".
+WARNING:HDLParsers:3607 - Unit work/mem_wb/arch is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/mem_wb.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/mem_wb.vhd".
+WARNING:HDLParsers:3607 - Unit work/ex is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_ex.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/ori_ex.vhd".
+WARNING:HDLParsers:3607 - Unit work/ex/behave is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_ex.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/ori_ex.vhd".
+WARNING:HDLParsers:3607 - Unit work/ex_mem is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_ex_mem.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/ori_ex_mem.vhd".
+WARNING:HDLParsers:3607 - Unit work/ex_mem/behave is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_ex_mem.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/ori_ex_mem.vhd".
+WARNING:HDLParsers:3607 - Unit work/id_ex is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_id_ex.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/ori_id_ex.vhd".
+WARNING:HDLParsers:3607 - Unit work/id_ex/behave is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_id_ex.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/ori_id_ex.vhd".
+WARNING:HDLParsers:3607 - Unit work/pc_reg is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/pc_reg.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/pc_reg.vhd".
+WARNING:HDLParsers:3607 - Unit work/pc_reg/counter is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/pc_reg.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/pc_reg.vhd".
+WARNING:HDLParsers:3607 - Unit work/regfile is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/regfile.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/regfile.vhd".
+WARNING:HDLParsers:3607 - Unit work/regfile/arch is now defined in a different file.  It was defined in "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/regfile.vhd", and is now defined in "D:/MyProgram/CPU/exp1_ori/regfile.vhd".
+Compiling vhdl file "D:/MyProgram/CPU/exp1_ori/pc_reg.vhd" in Library work.
 Architecture counter of Entity pc_reg is up to date.
-Compiling vhdl file "C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/if_id.vhd" in Library work.
+Compiling vhdl file "D:/MyProgram/CPU/exp1_ori/if_id.vhd" in Library work.
 Architecture simple of Entity if_id is up to date.
-Compiling vhdl file "C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/id.vhd" in Library work.
+Compiling vhdl file "D:/MyProgram/CPU/exp1_ori/id.vhd" in Library work.
 Architecture decode of Entity id is up to date.
-Compiling vhdl file "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/regfile.vhd" in Library work.
+Compiling vhdl file "D:/MyProgram/CPU/exp1_ori/regfile.vhd" in Library work.
 Architecture arch of Entity regfile is up to date.
-Compiling vhdl file "C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_id_ex.vhd" in Library work.
+Compiling vhdl file "D:/MyProgram/CPU/exp1_ori/ori_id_ex.vhd" in Library work.
 Architecture behave of Entity id_ex is up to date.
-Compiling vhdl file "C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_ex.vhd" in Library work.
+Compiling vhdl file "D:/MyProgram/CPU/exp1_ori/ori_ex.vhd" in Library work.
 Architecture behave of Entity ex is up to date.
-Compiling vhdl file "C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_ex_mem.vhd" in Library work.
+Compiling vhdl file "D:/MyProgram/CPU/exp1_ori/ori_ex_mem.vhd" in Library work.
 Architecture behave of Entity ex_mem is up to date.
-Compiling vhdl file "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/mem.vhd" in Library work.
+Compiling vhdl file "D:/MyProgram/CPU/exp1_ori/mem.vhd" in Library work.
 Architecture arch of Entity mem is up to date.
-Compiling vhdl file "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/mem_wb.vhd" in Library work.
-Entity <mem_wb> compiled.
-Entity <mem_wb> (Architecture <arch>) compiled.
-Compiling vhdl file "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/openmips.vhd" in Library work.
+Compiling vhdl file "D:/MyProgram/CPU/exp1_ori/mem_wb.vhd" in Library work.
+Architecture arch of Entity mem_wb is up to date.
+Compiling vhdl file "D:/MyProgram/CPU/exp1_ori/openmips.vhd" in Library work.
 Architecture arch of Entity openmips is up to date.
 
 =========================================================================
@@ -163,35 +182,35 @@ Analyzing Entity <if_id> in library <work> (Architecture <simple>).
 Entity <if_id> analyzed. Unit <if_id> generated.
 
 Analyzing Entity <id> in library <work> (Architecture <decode>).
-WARNING:Xst:819 - "C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/id.vhd" line 42: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "D:/MyProgram/CPU/exp1_ori/id.vhd" line 42: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <op>
-WARNING:Xst:819 - "C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/id.vhd" line 83: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "D:/MyProgram/CPU/exp1_ori/id.vhd" line 83: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <reg1_read>, <imm>
-WARNING:Xst:819 - "C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/id.vhd" line 97: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "D:/MyProgram/CPU/exp1_ori/id.vhd" line 97: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <imm>
 Entity <id> analyzed. Unit <id> generated.
 
 Analyzing Entity <regfile> in library <work> (Architecture <arch>).
-WARNING:Xst:819 - "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/regfile.vhd" line 43: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "D:/MyProgram/CPU/exp1_ori/regfile.vhd" line 43: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <waddr>, <wdata>, <regs>
-WARNING:Xst:819 - "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/regfile.vhd" line 60: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "D:/MyProgram/CPU/exp1_ori/regfile.vhd" line 60: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <waddr>, <wdata>, <regs>
 Entity <regfile> analyzed. Unit <regfile> generated.
 
 Analyzing Entity <id_ex> in library <work> (Architecture <behave>).
-WARNING:Xst:819 - "C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_id_ex.vhd" line 33: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "D:/MyProgram/CPU/exp1_ori/ori_id_ex.vhd" line 33: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <ex_aluop_s>, <ex_alusel_s>, <ex_reg1_s>, <ex_reg2_s>, <ex_wd_s>, <ex_wreg_s>
 Entity <id_ex> analyzed. Unit <id_ex> generated.
 
 Analyzing Entity <ex> in library <work> (Architecture <behave>).
-WARNING:Xst:819 - "C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_ex.vhd" line 28: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "D:/MyProgram/CPU/exp1_ori/ori_ex.vhd" line 28: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <aluop_i>, <reg1_i>, <reg2_i>
-WARNING:Xst:819 - "C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_ex.vhd" line 40: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "D:/MyProgram/CPU/exp1_ori/ori_ex.vhd" line 40: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <logicout>
 Entity <ex> analyzed. Unit <ex> generated.
 
 Analyzing Entity <ex_mem> in library <work> (Architecture <behave>).
-WARNING:Xst:819 - "C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_ex_mem.vhd" line 25: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "D:/MyProgram/CPU/exp1_ori/ori_ex_mem.vhd" line 25: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <mem_wd_s>, <mem_wreg_s>, <mem_wdata_s>
 Entity <ex_mem> analyzed. Unit <ex_mem> generated.
 
@@ -209,7 +228,7 @@ Entity <mem_wb> analyzed. Unit <mem_wb> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <pc_reg>.
-    Related source file is "C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/pc_reg.vhd".
+    Related source file is "D:/MyProgram/CPU/exp1_ori/pc_reg.vhd".
     Found 1-bit register for signal <ce>.
     Found 32-bit up counter for signal <counter>.
     Summary:
@@ -219,7 +238,7 @@ Unit <pc_reg> synthesized.
 
 
 Synthesizing Unit <if_id>.
-    Related source file is "C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/if_id.vhd".
+    Related source file is "D:/MyProgram/CPU/exp1_ori/if_id.vhd".
     Found 32-bit register for signal <id_pc>.
     Found 32-bit register for signal <id_inst>.
     Summary:
@@ -228,7 +247,7 @@ Unit <if_id> synthesized.
 
 
 Synthesizing Unit <id>.
-    Related source file is "C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/id.vhd".
+    Related source file is "D:/MyProgram/CPU/exp1_ori/id.vhd".
 WARNING:Xst:647 - Input <pc_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <reg2_data_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:646 - Signal <op4> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -243,7 +262,7 @@ Unit <id> synthesized.
 
 
 Synthesizing Unit <regfile>.
-    Related source file is "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/regfile.vhd".
+    Related source file is "D:/MyProgram/CPU/exp1_ori/regfile.vhd".
 WARNING:Xst:646 - Signal <addr1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <addr0> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
     Found 32x32-bit dual-port RAM <Mram_regs> for signal <regs>.
@@ -257,7 +276,7 @@ Unit <regfile> synthesized.
 
 
 Synthesizing Unit <id_ex>.
-    Related source file is "C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_id_ex.vhd".
+    Related source file is "D:/MyProgram/CPU/exp1_ori/ori_id_ex.vhd".
     Found 8-bit register for signal <ex_aluop_s>.
     Found 3-bit register for signal <ex_alusel_s>.
     Found 32-bit register for signal <ex_reg1_s>.
@@ -270,7 +289,7 @@ Unit <id_ex> synthesized.
 
 
 Synthesizing Unit <ex>.
-    Related source file is "C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_ex.vhd".
+    Related source file is "D:/MyProgram/CPU/exp1_ori/ori_ex.vhd".
     Found 32-bit 4-to-1 multiplexer for signal <logicout>.
     Summary:
 	inferred  32 Multiplexer(s).
@@ -278,7 +297,7 @@ Unit <ex> synthesized.
 
 
 Synthesizing Unit <ex_mem>.
-    Related source file is "C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_ex_mem.vhd".
+    Related source file is "D:/MyProgram/CPU/exp1_ori/ori_ex_mem.vhd".
     Found 5-bit register for signal <mem_wd_s>.
     Found 32-bit register for signal <mem_wdata_s>.
     Found 1-bit register for signal <mem_wreg_s>.
@@ -288,12 +307,12 @@ Unit <ex_mem> synthesized.
 
 
 Synthesizing Unit <mem>.
-    Related source file is "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/mem.vhd".
+    Related source file is "D:/MyProgram/CPU/exp1_ori/mem.vhd".
 Unit <mem> synthesized.
 
 
 Synthesizing Unit <mem_wb>.
-    Related source file is "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/mem_wb.vhd".
+    Related source file is "D:/MyProgram/CPU/exp1_ori/mem_wb.vhd".
     Found 32-bit register for signal <wb_wdata>.
     Found 5-bit register for signal <wb_wd>.
     Found 1-bit register for signal <wb_wreg>.
@@ -303,7 +322,7 @@ Unit <mem_wb> synthesized.
 
 
 Synthesizing Unit <openmips>.
-    Related source file is "C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/openmips.vhd".
+    Related source file is "D:/MyProgram/CPU/exp1_ori/openmips.vhd".
 Unit <openmips> synthesized.
 
 
@@ -975,14 +994,14 @@ Offset:              4.310ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 9.95 secs
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.87 secs
  
 --> 
 
 Total memory usage is 280308 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  374 (   0 filtered)
+Number of warnings :  394 (   0 filtered)
 Number of infos    :    2 (   0 filtered)
 

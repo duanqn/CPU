@@ -26,10 +26,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 158120 kilobytes
+Total memory usage is 158696 kilobytes
 
 Writing NGD file "openmips.ngd" ...
-Total REAL time to NGDBUILD completion:  6 sec
-Total CPU time to NGDBUILD completion:   4 sec
+Total REAL time to NGDBUILD completion:  4 sec
+Total CPU time to NGDBUILD completion:   3 sec
 
 Writing NGDBUILD log file "openmips.bld"...

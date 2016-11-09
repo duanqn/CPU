@@ -1,64 +1,63 @@
-V3 39
+V3 49
 FL C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_ex.vhd 2016/11/08.14:28:51 P.20131013
-EN work/ex 1478587561 \
-      FL C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_ex.vhd \
-      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/ex/behave 1478587562 \
-      FL C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_ex.vhd EN work/ex 1478587561
 FL C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_ex_mem.vhd 2016/11/08.14:25:24 P.20131013
-EN work/ex_mem 1478587563 \
-      FL C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_ex_mem.vhd \
-      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/ex_mem/behave 1478587564 \
-      FL C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_ex_mem.vhd \
-      EN work/ex_mem 1478587563
 FL C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_id_ex.vhd 2016/11/08.14:03:25 P.20131013
-EN work/id_ex 1478587559 \
-      FL C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_id_ex.vhd \
-      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/id_ex/behave 1478587560 \
-      FL C:/Users/WangP/Desktop/CPU_exp1/CPU-id-ex_ex-mem/ori_id_ex.vhd \
-      EN work/id_ex 1478587559
 FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/id.vhd 2016/11/08.14:20:33 P.20131013
-EN work/id 1478587555 FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/id.vhd \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/id/decode 1478587556 \
-      FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/id.vhd EN work/id 1478587555
 FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/if_id.vhd 2016/11/08.14:05:57 P.20131013
-EN work/if_id 1478587553 FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/if_id.vhd \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/if_id/simple 1478587554 \
-      FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/if_id.vhd EN work/if_id 1478587553
 FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/pc_reg.vhd 2016/11/08.14:07:37 P.20131013
-EN work/pc_reg 1478587551 FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/pc_reg.vhd \
+FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/mem.vhd 2016/11/04.18:51:13 P.20131013
+FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/mem_wb.vhd 2016/11/08.14:45:48 P.20131013
+FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/openmips.vhd 2016/11/08.14:41:55 P.20131013
+FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/regfile.vhd 2016/11/04.18:51:13 P.20131013
+FL D:/MyProgram/CPU/exp1_ori/id.vhd 2016/11/08.14:20:33 P.20131013
+EN work/id 1478679943 FL D:/MyProgram/CPU/exp1_ori/id.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/id/decode 1478679944 \
+      FL D:/MyProgram/CPU/exp1_ori/id.vhd EN work/id 1478679943
+FL D:/MyProgram/CPU/exp1_ori/if_id.vhd 2016/11/08.14:05:57 P.20131013
+EN work/if_id 1478679941 FL D:/MyProgram/CPU/exp1_ori/if_id.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/pc_reg/counter 1478587552 \
-      FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pc_id/pc_reg.vhd EN work/pc_reg 1478587551
-FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/mem.vhd 2016/11/04.18:51:13 P.20131013
-EN work/mem 1478587565 FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/mem.vhd \
+AR work/if_id/simple 1478679942 \
+      FL D:/MyProgram/CPU/exp1_ori/if_id.vhd EN work/if_id 1478679941
+FL D:/MyProgram/CPU/exp1_ori/mem.vhd 2016/11/04.18:51:13 P.20131013
+EN work/mem 1478679953 FL D:/MyProgram/CPU/exp1_ori/mem.vhd PB ieee/std_logic_1164 1381692176
+AR work/mem/arch 1478679954 \
+      FL D:/MyProgram/CPU/exp1_ori/mem.vhd EN work/mem 1478679953
+FL D:/MyProgram/CPU/exp1_ori/mem_wb.vhd 2016/11/08.14:45:48 P.20131013
+EN work/mem_wb 1478679955 FL D:/MyProgram/CPU/exp1_ori/mem_wb.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/mem/arch 1478587566 \
-      FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/mem.vhd EN work/mem 1478587565
-FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/mem_wb.vhd 2016/11/08.14:45:48 P.20131013
-EN work/mem_wb 1478587567 \
-      FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/mem_wb.vhd \
-      PB ieee/std_logic_1164 1381692176
-AR work/mem_wb/arch 1478587568 \
-      FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/mem_wb.vhd EN work/mem_wb 1478587567
-FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/openmips.vhd 2016/11/08.14:41:55 P.20131013
-EN work/openmips 1478587569 \
-      FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/openmips.vhd \
+AR work/mem_wb/arch 1478679956 \
+      FL D:/MyProgram/CPU/exp1_ori/mem_wb.vhd EN work/mem_wb 1478679955
+FL D:/MyProgram/CPU/exp1_ori/openmips.vhd 2016/11/08.14:41:55 P.20131013
+EN work/openmips 1478679957 FL D:/MyProgram/CPU/exp1_ori/openmips.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/openmips/arch 1478587570 \
-      FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/openmips.vhd \
-      EN work/openmips 1478587569 CP pc_reg CP if_id CP id CP regfile CP id_ex CP ex \
-      CP ex_mem CP mem CP mem_wb
-FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/regfile.vhd 2016/11/04.18:51:13 P.20131013
-EN work/regfile 1478587557 \
-      FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/regfile.vhd \
+AR work/openmips/arch 1478679958 \
+      FL D:/MyProgram/CPU/exp1_ori/openmips.vhd EN work/openmips 1478679957 \
+      CP pc_reg CP if_id CP id CP regfile CP id_ex CP ex CP ex_mem CP mem CP mem_wb
+FL D:/MyProgram/CPU/exp1_ori/ori_ex.vhd 2016/11/08.14:28:51 P.20131013
+EN work/ex 1478679949 FL D:/MyProgram/CPU/exp1_ori/ori_ex.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ex/behave 1478679950 \
+      FL D:/MyProgram/CPU/exp1_ori/ori_ex.vhd EN work/ex 1478679949
+FL D:/MyProgram/CPU/exp1_ori/ori_ex_mem.vhd 2016/11/08.14:25:24 P.20131013
+EN work/ex_mem 1478679951 FL D:/MyProgram/CPU/exp1_ori/ori_ex_mem.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ex_mem/behave 1478679952 \
+      FL D:/MyProgram/CPU/exp1_ori/ori_ex_mem.vhd EN work/ex_mem 1478679951
+FL D:/MyProgram/CPU/exp1_ori/ori_id_ex.vhd 2016/11/08.14:03:25 P.20131013
+EN work/id_ex 1478679947 FL D:/MyProgram/CPU/exp1_ori/ori_id_ex.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/id_ex/behave 1478679948 \
+      FL D:/MyProgram/CPU/exp1_ori/ori_id_ex.vhd EN work/id_ex 1478679947
+FL D:/MyProgram/CPU/exp1_ori/pc_reg.vhd 2016/11/08.14:07:37 P.20131013
+EN work/pc_reg 1478679939 FL D:/MyProgram/CPU/exp1_ori/pc_reg.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/pc_reg/counter 1478679940 \
+      FL D:/MyProgram/CPU/exp1_ori/pc_reg.vhd EN work/pc_reg 1478679939
+FL D:/MyProgram/CPU/exp1_ori/regfile.vhd 2016/11/04.18:51:13 P.20131013
+EN work/regfile 1478679945 FL D:/MyProgram/CPU/exp1_ori/regfile.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/regfile/arch 1478587558 \
-      FL C:/Users/WangP/Desktop/CPU_exp1/CPU-pxxgogo/regfile.vhd EN work/regfile 1478587557
+AR work/regfile/arch 1478679946 \
+      FL D:/MyProgram/CPU/exp1_ori/regfile.vhd EN work/regfile 1478679945
